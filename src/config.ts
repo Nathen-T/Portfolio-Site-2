@@ -1,7 +1,9 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  name: "Nathan Truong",
+  title: "Machine Learning Engineer / Data Scientist",
+  valueSentence:
+    "I turn messy data into clear insights, predictive models, and better decisions.",
+  description: "Portfolio website of Nathan Truong",
   accentColor: "#1d4ed8",
   social: {
     email: "your-email@example.com",
