@@ -12,8 +12,8 @@ export const siteConfig = {
     github: "https://github.com/RyanFitzgerald",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "I’m a Data Scientist with 3.5 years of experience using data to solve problems — across statistics, causal inference, modelling, deep learning, LLMs, and AI agents. I’ve worked as a Machine Learning Engineer at Atlassian and have a background in actuarial studies and data science. I’m especially focused on applied ML and AI agents, and I enjoy taking a problem from messy data all the way to a working solution. I’m relocating from Sydney to Paris for around six months and open to part-time work (up to 3 days a week) with startups building real products.",
+  skills: ["Python", "SQL", "R", "JavaScript", "Databricks", "Power BI"],
   projects: [
     {
       name: "AI Dev Roundup Newsletter",
