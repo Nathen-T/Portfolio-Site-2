@@ -6,7 +6,7 @@ export const siteConfig = {
   description: "Portfolio website of Nathan Truong",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
+    email: "nathan.truong88@gmail.com",
     linkedin: "https://linkedin.com/in/yourprofile",
     twitter: "https://x.com/rfitzio",
     github: "https://github.com/RyanFitzgerald",
