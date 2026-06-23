@@ -12,8 +12,8 @@ export const siteConfig = {
     github: "https://github.com/RyanFitzgerald",
   },
   aboutMe:
-    "I’m a Data Scientist with 3.5 years of experience using data to solve problems — across statistics, causal inference, modelling, deep learning, LLMs, and AI agents. I’ve worked as a Machine Learning Engineer at Atlassian and have a background in actuarial studies and data science. I’m especially focused on applied ML and AI agents, and I enjoy taking a problem from messy data all the way to a working solution. I’m relocating from Sydney to Paris for around six months and open to part-time work (up to 3 days a week) with startups building real products.",
-  skills: ["Python", "SQL", "R", "JavaScript", "Databricks", "Power BI"],
+    "I'm a data scientist with 3.5 years of experience, including time as a Machine Learning Engineer at <strong>Atlassian</strong>. I focus on <strong>applied ML and AI agents</strong>, and I enjoy building solutions to complex data problems. I have a strong foundation in statistics, with a background in actuarial studies. I'm relocating from Sydney to Paris for about six months and open to <strong>part-time work, up to 3 days a week</strong>, with startups shipping AI products.",
+  skills: ["Python", "SQL", "PyTorch", "LLMS/RAG", "Databricks", "AWS"],
   projects: [
     {
       name: "AI Dev Roundup Newsletter",
@@ -39,55 +39,55 @@ export const siteConfig = {
   ],
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "Atlassian",
+      title: "Machine Learning Engineer Intern",
+      dateRange: "Nov 2025 - Feb 2026",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
+        "Improved Confluence's personalised \"Improve Writing\" feature, used by 500K+ users.",
+        "Drove an 83% gain in writing quality through prompt engineering over model and data changes.",
+        "Built and validated LLM-as-a-judge metrics, then shipped the winner into a production A/B test.",
       ],
     },
     {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
+      company: "ITSM",
+      title: "Data Scientist",
+      dateRange: "Aug 2024 - Present",
       bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
+        "Built an ALS recommender serving 150K+ players monthly, lifting gaming activity 15%.",
+        "Shipped a game-similarity tool for 20+ VIP hosts, cutting rec time from 1 hour to 10 minutes.",
+        "Operated all models as automated, self-retraining pipelines with drift monitoring and alerting.",
       ],
     },
     {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
+      company: "WHEREFIT",
+      title: "Partnerships Associate",
+      dateRange: "Feb 2022 - Aug 2022",
       bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
+        "Owned corporate sales strategy at an early-stage startup, driving a 300% revenue increase.",
+        "Lifted lead conversion 20% through A/B-tested cold-email outbound.",
       ],
     },
   ],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "University of Sydney",
+      degree: "Master of Data Science",
+      dateRange: "2024 - 2026",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
+        "Major in Machine Learning",
+        "Coursework: Deep Learning, NLP, Statistical Learning, Big Data Engineering",
+        "Capstone: XGBoost + LLM system for financial chart-pattern analysis (React/FastAPI)",
+        "Distinction average"
       ],
     },
     {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
+      school: "University of New South Wales",
+      degree: "Bachelor of Actuarial Studies and Bachelor of Commerce",
+      dateRange: "2019 - 2022",
       achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+        "Majors: Actuarial Science and Economics",
+        "Graduated with Distinction",
+        "Relevant: Stochastic Modelling, Statistics, Risk Theory"
       ],
     },
   ],

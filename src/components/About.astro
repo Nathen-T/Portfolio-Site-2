@@ -19,9 +19,10 @@ import { siteConfig } from "../config";
       </div>
 
       <div class="lg:col-span-8 space-y-8">
-        <p class="text-base sm:text-lg md:text-xl leading-relaxed text-gray-600">
-          {siteConfig.aboutMe}
-        </p>
+        <p
+          class="text-base sm:text-lg md:text-xl leading-relaxed text-gray-600 [&_strong]:font-semibold [&_strong]:text-gray-800"
+          set:html={siteConfig.aboutMe}
+        />
 
         <div class="pt-4">
           <div class="flex flex-wrap gap-3">
