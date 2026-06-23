@@ -7,8 +7,7 @@ export const siteConfig = {
   accentColor: "#1d4ed8",
   social: {
     email: "nathan.truong88@gmail.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
+    linkedin: "http://www.linkedin.com/in/n-truong",
     github: "https://github.com/RyanFitzgerald",
   },
   aboutMe:
@@ -16,11 +15,11 @@ export const siteConfig = {
   skills: ["Python", "SQL", "PyTorch", "LLMS/RAG", "Databricks", "AWS"],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "rag-eval — RAG Regression Harness",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "An offline-first harness that catches RAG regressions before they ship. Scores retrieval hit@k, EM/F1, and groundedness across runs, then auto-flags any metric that drops.",
+      link: "https://github.com/Nathen-T/agent_eval_harness",
+      skills: ["Python", "RAG", "LLMs"],
     },
     {
       name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
@@ -76,8 +75,7 @@ export const siteConfig = {
       achievements: [
         "Major in Machine Learning",
         "Coursework: Deep Learning, NLP, Statistical Learning, Big Data Engineering",
-        "Capstone: XGBoost + LLM system for financial chart-pattern analysis (React/FastAPI)",
-        "Distinction average"
+        "Capstone: XGBoost + LLM system for financial chart-pattern analysis (React/FastAPI)"
       ],
     },
     {
@@ -86,7 +84,6 @@ export const siteConfig = {
       dateRange: "2019 - 2022",
       achievements: [
         "Majors: Actuarial Science and Economics",
-        "Graduated with Distinction",
         "Relevant: Stochastic Modelling, Statistics, Risk Theory"
       ],
     },
