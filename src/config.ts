@@ -1,6 +1,7 @@
 export const siteConfig = {
   name: "Nathan Truong",
   title: "Machine Learning Engineer / Data Scientist",
+  headshot: "/headshot.png",
   valueSentence:
     "I turn messy data into clear insights, predictive models, and better decisions.",
   description: "Portfolio website of Nathan Truong",

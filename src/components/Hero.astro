@@ -129,8 +129,10 @@ import { siteConfig } from "../config";
       height="100%"
       stroke-width={0}></rect>
   </svg>
-  <div class="h-full mx-auto p-8 sm:p-12 md:p-24 flex items-center">
-    <div>
+  <div
+    class="h-full w-full max-w-7xl mx-auto p-8 sm:p-12 md:p-24 flex flex-col md:flex-row items-center md:justify-between gap-10 md:gap-16"
+  >
+    <div class="max-w-3xl">
       <h2
         class="text-pretty text-lg sm:text-xl md:text-2xl font-bold tracking-tight text-gray-700 animate-fade-in"
       >
@@ -274,6 +276,19 @@ import { siteConfig } from "../config";
         }
       </div>
     </div>
+    {
+      siteConfig.headshot && (
+        <div class="w-full md:w-auto flex justify-center md:justify-end md:-mr-8 lg:-mr-16 animate-fade-in animation-delay-600">
+          <img
+            src={siteConfig.headshot}
+            alt={siteConfig.name}
+            loading="eager"
+            class="w-80 sm:w-96 md:w-[28rem] lg:w-[34rem] xl:w-[38rem] max-w-full object-contain"
+            style="mask-image: linear-gradient(to bottom, black 76%, transparent 100%); -webkit-mask-image: linear-gradient(to bottom, black 76%, transparent 100%);"
+          />
+        </div>
+      )
+    }
   </div>
 </div>
 
