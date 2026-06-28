@@ -1,0 +1,57 @@
+Project Structure and Instructions
+==================================
+
+This project implements and compares three robust Non-negative Matrix Factorization (NMF) algorithms for image denoising and clustering on face datasets (ORL and ExtendedYaleB). The code is organized into five Python files, each serving a specific purpose. Experiments are run in parallel for efficiency.
+
+Five Python Files:
+------------------
+
+1. tools.py
+   - Contains utility functions for data loading, noise addition (salt-and-pepper and block occlusion), clustering evaluation (accuracy and NMI), and visualization.
+   - Supports loading images from datasets, applying noise, and assessing NMF performance.
+
+2. L21_nmf.py
+   - Implements the L2,1-NMF algorithm, which uses L2,1 norm regularization for robustness against outliers.
+   - Includes the L21NMF class for fitting and transforming data, and a function to run experiments with noise and save results to JSON.
+
+3. hcnmf.py
+   - Implements Hypersurface Cost-based NMF (HCNMF), a robust method using hypersurface cost functions for outlier resistance.
+   - Features the hcnmf function for optimization, reconstruction utilities, and an experiment runner that evaluates performance on noisy data.
+
+4. L1_Robust.py
+   - Implements L1-Regularized Robust NMF, minimizing L1 reconstruction error with L1 regularization on matrices W and H, using Huber loss for smoothness.
+   - Includes the L1RegularizedRobustNMF class and an experiment function for denoising and clustering evaluation.
+
+5. main.py
+   - The main script that orchestrates parallel experiments across all three NMF algorithms, datasets, and noise configurations.
+   - Uses multiprocessing to run experiments concurrently, iterating over parameters like noise types (salt-and-pepper, block occlusion) and strengths.
+
+How to Run the Code:
+---------------------
+
+1. Ensure you have the required dependencies installed: numpy, scikit-learn, matplotlib, pillow, and json (standard libraries).
+
+2. Place the datasets in the 'data/' directory:
+   - ORL dataset in 'data/ORL/'
+   - ExtendedYaleB dataset in 'data/CroppedYaleB/'
+
+3. Run the main script from the command line:
+   python main.py
+
+   - This will execute experiments for all combinations of datasets (ORL, ExtendedYaleB), noise types (salt_and_pepper with p=0.2/0.4 and r=0.5/0.7; block_occlusion with widths 10/12), and the three NMF algorithms.
+   - Results are saved as JSON files in the 'results/' directory (created automatically).
+   - Experiments run in parallel using multiprocessing; monitor console output for progress.
+   - Total runtime depends on hardware but may take 10 hours for full parameter sweeps.
+   - For Single Run Experiments on Individual Algorithms, Run algorithm individually from L1_Robust, L21_nmf or hcnmf file
+   - running the algorithm separately has a runtime of less than 5 minutes (depending on device) per parameter 
+
+Note: Adjust parameters in main.py (e.g., n_runs, max_iter) as needed for your setup. Ensure sufficient RAM for large datasets.
+
+Code Contributions
+=============================
+L1_Robust - Ethan Yin
+L2,1 norm - Numan Rsheidat
+Hcnmf - Nathan Truong
+
+Merging - Numan Rsheidat
+
