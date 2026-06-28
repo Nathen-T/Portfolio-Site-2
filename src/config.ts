@@ -9,7 +9,7 @@ export const siteConfig = {
   social: {
     email: "nathan.truong88@gmail.com",
     linkedin: "http://www.linkedin.com/in/n-truong",
-    github: "https://github.com/RyanFitzgerald",
+    github: "https://github.com/Nathen-T",
   },
   aboutMe:
     "I'm a data scientist with 3.5 years of experience, including time as a Machine Learning Engineer at <strong>Atlassian</strong>. I focus on <strong>applied ML and AI agents</strong>, and I enjoy building solutions to complex data problems. I have a strong foundation in statistics, with a background in actuarial studies. I'm relocating from Sydney to Paris for about six months and open to <strong>part-time work, up to 3 days a week</strong>, with startups shipping AI products.",
