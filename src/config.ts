@@ -23,6 +23,20 @@ export const siteConfig = {
       skills: ["Python", "RAG", "LLMs"],
     },
     {
+      name: "Robust NMF for Image Denoising",
+      description:
+        "Implemented and benchmarked three robust Non-negative Matrix Factorization algorithms (L2,1-NMF, L1-Regularized Robust NMF, and Hypersurface Cost NMF) for denoising and clustering noisy face images on the ORL and Extended YaleB datasets.",
+      link: "https://github.com/Nathen-T",
+      skills: ["Python", "NumPy", "scikit-learn"],
+    },
+    {
+      name: "Robustness to Label Noise",
+      description:
+        "Studied classifier robustness under noisy labels, implementing Forward Correction, Co-teaching, and Bootstrap methods on FashionMNIST with known and estimated transition matrices to recover clean-label performance.",
+      link: "https://github.com/Nathen-T",
+      skills: ["Python", "PyTorch", "Deep Learning"],
+    },
+    {
       name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
       description:
         "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
